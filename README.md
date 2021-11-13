@@ -15,4 +15,4 @@ There are some characteristics aspects on GAN who is a generative model, which i
 -> When the model is given the training real data y, it will learn the characteristic of the real data. It will learn by identifying the real data latent feature representation variable. To make it simpler, it learns the base constructor feature of the images in the real data. For example, the model can learn that faces constructed by the color of the eyes and hair. These two will be one of the base which will be used on generating the faces. By tweaking its variable, it can also alter the generated faces. For example, by raising the variable of the eyes, the eyes will be blacker. Lowering it will make the opposite otherwise.
 -> It can build a probability distribution such as normal distribution which can be used on avoiding the outlier. Since outlier usually very rare in the distribution, it will be very rare to generate it. So GAN functions well on real data that has outlier.
 
-More information can be found by searching on Google (makes sense!)
+This Project was originally done in 2019. I intend to build on and improve the structure of the model
